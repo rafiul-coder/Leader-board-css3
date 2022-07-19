@@ -5,6 +5,48 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color:#F3F1FF;
 }
+.nav-right{
+    display: flex;
+    flex-direction: row;
+}
+.nav-right h3{
+    margin-left: 10px;
+    color: white;
+}
+header{
+    height: 95px;
+    background-color: rgba(86, 46, 255, 1);
+    margin: 0;
+}
+nav{ 
+    /* background-color: #FF4A60; */
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.nav-bar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav{
+    display: flex;
+    flex-direction: row;
+}
+.left-nav h3{
+    color: white;
+}
+.idea-icon{
+    height: 50px;
+    width: 40px;
+    margin-right: 10px;
+}
+.profile-icon{
+    height: 51px;
+    width: 51px;
+    margin-left: 20px;
+}
 main{
     display: flex;
     flex-direction: column;
