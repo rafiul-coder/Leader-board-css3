@@ -170,3 +170,8 @@ hr{
 }
     
 }
+.course{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 1px;
+}
